@@ -1,0 +1,15 @@
+.Button {
+    border-radius: 8px;
+    border: 1px solid #3a405b;
+    background-color: #f8e627;
+    color: #000000;
+    font-family: Montserrat, serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

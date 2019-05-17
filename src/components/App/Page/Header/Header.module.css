@@ -1,0 +1,54 @@
+.Root {
+    width: 1280px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.Title {
+    min-width: 200px;
+    color: #000000;
+    font-family: Montserrat, serif;
+    font-size: 20px;
+    padding: 0 20px;
+    font-weight: 700;
+    line-height: 60px;
+    display: inline;
+    flex-shrink: 1;
+}
+
+.Menu {
+    line-height: 60px;
+    text-align: center;
+    flex-shrink: 2;
+    margin: auto;
+}
+
+/* Aggiunto per tenere centrato il Menu*/
+.Root:after {
+    content: '';
+    min-width: 200px;
+    flex-shrink: 1;
+    padding: 0 20px;
+}
+
+.MenuItem, .MenuItem:link {
+    color: #9b9b9b;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.WithHeader {
+    margin-top: 60px;
+}
